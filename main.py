@@ -133,7 +133,7 @@ def main():
                 print(file[i])
                 i+=1
         print("--------------------------\n")
-        double_check = int(input("Do you want to add a password ?\n\n1)Yes\n2)No\n"))
+        double_check = int(input("Do you want to add a password ?\n1)Yes\n2)No\n"))
         if double_check == 1:
             os.system('clear')
             ft_check()
